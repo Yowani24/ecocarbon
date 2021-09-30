@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.thank_you_message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #009186;
+  padding-top: 200px;
+}
+
+.thank_you_message button{
+  margin-top: 20px;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  background: #20b2aa;
+  color: azure;
+  cursor: pointer;
+}
+.thank_you_message button:active{
+  background: #148f89;
+}
+.thank_you_message button:hover{
+  background: #4ac4bd;
+}
